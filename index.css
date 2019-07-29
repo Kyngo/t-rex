@@ -51,8 +51,6 @@ html, body {
   max-width: 600px;
   opacity: 1;
   overflow: hidden;
-  position: absolute;
-  top: 0;
   z-index: 2;
 }
 
@@ -94,13 +92,6 @@ html, body {
   }
   .nav-wrapper {
     margin-top: 30px;
-  }
-}
-
-@media (min-width: 600px) and (max-width: 736px) and (orientation: landscape) {
-  .offline .interstitial-wrapper {
-    margin-left: 0;
-    margin-right: 0;
   }
 }
 
